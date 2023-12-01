@@ -56,10 +56,10 @@ export default function Home(){
 
         <div class="card">
             <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                <iframe src="https://youtu.be/lVNVq-PVOf8" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 
@@ -71,7 +71,7 @@ export default function Home(){
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 
@@ -83,7 +83,7 @@ export default function Home(){
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 
@@ -100,7 +100,7 @@ export default function Home(){
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 
@@ -112,7 +112,7 @@ export default function Home(){
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 
@@ -124,7 +124,7 @@ export default function Home(){
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text.</p>
             </div>
         </div>
 

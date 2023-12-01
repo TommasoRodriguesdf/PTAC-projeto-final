@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import Registro from './Registro'
 import Detalhe from './Detalhe'
+import "../fundo.css"
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
