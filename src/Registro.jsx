@@ -39,9 +39,31 @@ export default function Registro() {
 
   return (
     <div>
-      <div>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+     <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      </ul>
+                <Link to="/">Home</Link>
+                <hr class="dropdown-divider" />
+                <Link to="/destaque">Destaque</Link>
+
+    </div>
+  </div>
+
+</nav>
+
+<div>
+      <div className="text-white">
         <h1></h1>
         <form onSubmit={salvar}>
+        <hr class="dropdown-divider" />
+          <label htmlFor="">urlVideo</label>
+        <hr class="dropdown-divider" /> 
           <input
             type="text"
             value={urlVideo}
@@ -49,6 +71,9 @@ export default function Registro() {
               setUrlVideo(e.target.value);
             }}
           />
+          <hr class="dropdown-divider" />
+          <label htmlFor="">setCantor</label>
+          <hr class="dropdown-divider" />
           <input
             type="text"
             value={cantor}
@@ -56,6 +81,9 @@ export default function Registro() {
               setCantor(e.target.value);
             }}
           />
+          <hr class="dropdown-divider" />
+          <label htmlFor="">setNomMusica</label>
+          <hr class="dropdown-divider" />
           <input
             type="text"
             value={nomMusica}
@@ -63,6 +91,9 @@ export default function Registro() {
               setNomMusica(e.target.value);
             }}
           />
+          <hr class="dropdown-divider" />
+          <label htmlFor="">setFavorita</label>
+          <hr class="dropdown-divider" />
           <input
             type="text"
             value={favorita}
@@ -70,6 +101,9 @@ export default function Registro() {
               setFavorita(e.target.value);
             }}
           />
+          <hr class="dropdown-divider" />
+          <label htmlFor="">setProdutora</label>
+          <hr class="dropdown-divider" />
           <input
             type="text"
             value={produtora}
@@ -77,11 +111,11 @@ export default function Registro() {
               setProdutora(e.target.value);
             }}
           />
-          <button></button>
+          <button>adicionar</button>
         </form>
       </div>
     </div>
 
-
+</div>
   );
 }
