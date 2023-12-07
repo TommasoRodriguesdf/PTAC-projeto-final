@@ -40,6 +40,8 @@ export default function Destaque() {
                 <Link to="/registro">Registre Se</Link>
                 <hr class="dropdown-divider" />
                 <Link to="/">Home</Link>
+                <hr class="dropdown-divider" />
+                <Link to="/detalhe">Detalhe</Link>
 
                 </a>
                     <hr class="dropdown-divider" />

@@ -39,6 +39,8 @@ export default function Detalhe() {
                 <a class="nav-link active" aria-current="page" href="#">
                 <Link to="/registro">Registre Se</Link>
                 <hr class="dropdown-divider" />
+                <Link to="/destaque">Destaque</Link>
+                <hr class="dropdown-divider" />
                 <Link to="/">Home</Link>
 
                 </a>

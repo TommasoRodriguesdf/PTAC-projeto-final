@@ -51,6 +51,8 @@ export default function Registro() {
                 <Link to="/">Home</Link>
                 <hr class="dropdown-divider" />
                 <Link to="/destaque">Destaque</Link>
+                <hr class="dropdown-divider" />
+                <Link to="/detalhe">Detalhe</Link>
 
     </div>
   </div>
