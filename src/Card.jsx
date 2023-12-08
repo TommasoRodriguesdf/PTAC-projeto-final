@@ -11,6 +11,7 @@ export default function Card({video}) {
           <div class="container text-center">
 
           <iframe width="350" 
+                  className="fundo"
                   height="350"   
                   src={"https://www.youtube.com/embed/"+ video.urlVideo.slice(17) }
                   frameborder="0"

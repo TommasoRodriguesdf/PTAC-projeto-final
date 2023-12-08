@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Registro() {
   const listaLocalStorage = JSON.parse(localStorage.getItem("Lista")) || [];
@@ -14,10 +14,11 @@ export default function Registro() {
   const [favorita, setFavorita] = useState("");
   const [produtora, setProdutora] = useState("");
 
-  const salvar = (e) => {
-    e.preventDefault();
+  const navigate = useNavigate();
 
-    setLista([
+  const salvar = async (e) => {
+    e.preventDefault();
+await setLista([
       ...lista,
       {
         id: id,
@@ -31,6 +32,7 @@ export default function Registro() {
     ]);
 
     setId(id + 1);
+    navigate("/");
   };
 
   useEffect(() => {
