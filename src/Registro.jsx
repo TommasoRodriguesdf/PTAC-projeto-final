@@ -16,12 +16,13 @@ export default function Registro() {
 
   const navigate = useNavigate();
 
-  const salvar = async (e) => {
-    e.preventDefault();
+  const salvar = async (e,urlVideo,cantor) => {
+    e.preventDefault(urlVideo);
 await setLista([
       ...lista,
       {
         id: id,
+        //<Link to={"/detalhe/ ${lista.id}"} className="btn btn-primary">detalhe</Link>
         //Math.floor(Math.random() * 100000000),
         urlVideo: urlVideo,
         cantor: cantor,
