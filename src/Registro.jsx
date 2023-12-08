@@ -60,6 +60,11 @@ export default function Registro() {
 </nav>
 
 <div>
+
+<div class="container text-center">
+  <div class="row"/>
+    <div class="col"/>
+
       <div className="text-white">
         <h1></h1>
         <form onSubmit={salvar}>
@@ -113,11 +118,12 @@ export default function Registro() {
               setProdutora(e.target.value);
             }}
           />
+          <hr class="dropdown-divider" />
           <button>adicionar</button>
         </form>
       </div>
     </div>
-
+    </div>
 </div>
   );
 }
