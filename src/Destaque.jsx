@@ -20,7 +20,7 @@ export default function Destaque() {
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+          Sound Serenity
           </a>
           <button
             class="navbar-toggler"
